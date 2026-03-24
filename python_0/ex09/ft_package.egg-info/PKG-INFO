@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: ft_package
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://github.com/PBjr2002/Python_Practice/tree/main/python_0/ex09
+Author: pauberna
+Author-email: pauberna@42.fr
+License: MIT
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: summary

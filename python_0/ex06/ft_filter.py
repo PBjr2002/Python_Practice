@@ -2,7 +2,8 @@ def ft_filter(function, iterable):
     """
     ft_filter(function or None, iterable) --> filter object
 
-    Return an iterator yielding those items of iterable for which function(item)
+    Return an iterator yielding
+    those items of iterable for which function(item)
     is true. If function is None, return the items that are true.
     """
     if function is not None and not callable(function):
@@ -12,7 +13,7 @@ def ft_filter(function, iterable):
         iter(iterable)
     except TypeError:
         raise TypeError("Object must be iterable")
-    
+
     if function is None:
         result = [x for x in iterable if x]
     else:

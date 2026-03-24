@@ -1,5 +1,6 @@
 import sys
 
+
 def filter_string(av: list):
     """
     Used to parse the input received and print
@@ -13,7 +14,7 @@ def filter_string(av: list):
         size = int(av[2])
     except ValueError:
         raise AssertionError("the arguments are bad")
-    
+
     splited_string = av[1].split()
 
     res = [s for s in splited_string if (lambda x: len(x) > size)(s)]
